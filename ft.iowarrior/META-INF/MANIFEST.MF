@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: IOWarrior Plug-in
+Bundle-SymbolicName: ft.iowarrior;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: ft.iowarrior.Activator
+Bundle-Vendor: Florian Thienel Softwareentwicklung
+Require-Bundle: org.eclipse.core.runtime,
+ org.junit;bundle-version="4.8.2";resolution:=optional
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: lib/codemercs.jar,
+ lib/iowj0.9.5rc1.jar,
+ .
+Bundle-NativeCode: 
+ lib/x86/iowkit.dll; osname=Win32; processor=x86,
+ lib/x86_64/iowkit.dll; osname=Win32; processor=x86_64
+Export-Package: com.codemercs.iow,
+ de.wagner_ibw.iow,
+ de.wagner_ibw.iow.i2c,
+ de.wagner_ibw.iow.lcd,
+ de.wagner_ibw.iow.rc5,
+ de.wagner_ibw.iow.smx,
+ de.wagner_ibw.iow.spi

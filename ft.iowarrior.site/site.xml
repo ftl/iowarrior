@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/ft.iowarrior.feature_1.0.0.201202041256.jar" id="ft.iowarrior.feature" version="1.0.0.201202041256" os="win32" arch="x86,x86_64"/>
+</site>
